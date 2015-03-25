@@ -1,0 +1,802 @@
+Tue Aug 05 14:22:37 2014:	* -----/|-------------------------------------------------------------------- *
+Tue Aug 05 14:22:37 2014:	*     / |__                                                                   *
+Tue Aug 05 14:22:37 2014:	*    /_   /   MSP430 Flasher v1.3.1                                           *
+Tue Aug 05 14:22:37 2014:	*      | /                                                                    *
+Tue Aug 05 14:22:37 2014:	* -----|/-------------------------------------------------------------------- *
+Tue Aug 05 14:22:37 2014:	* Evaluating triggers...done
+Tue Aug 05 14:22:37 2014:	* Checking for available FET debuggers: 
+Tue Aug 05 14:22:37 2014:	* Found USB FET @ HID0004:COM3.Tue Aug 05 14:22:37 2014:	 <- Selected
+Tue Aug 05 14:22:37 2014:	* Initializing interface @ HID0004:COM3...done
+Tue Aug 05 14:22:38 2014:	* Checking firmware compatibility: 
+Tue Aug 05 14:22:38 2014:	* FET firmware is up to date.
+Tue Aug 05 14:22:38 2014:	* Reading FW version...done
+Tue Aug 05 14:22:38 2014:	* Reading HW version...
+Tue Aug 05 14:22:38 2014:	* Debugger does not support target voltages other than 3000 mV!
+Tue Aug 05 14:22:38 2014:	* Setting VCC to 3000 mV...done
+Tue Aug 05 14:22:38 2014:	* Configuring...done
+Tue Aug 05 14:22:38 2014:	* Accessing device...done
+Tue Aug 05 14:22:38 2014:	* Reading device information...done
+Tue Aug 05 14:22:38 2014:	* Loading file into device...done
+Tue Aug 05 14:22:53 2014:	* Verifying transfer...done
+Tue Aug 05 14:22:56 2014:	* 
+Tue Aug 05 14:22:56 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:22:56 2014:	* Arguments   : -n CC430F6137 -w /ti/MSP430Flasher_1.3.1/Firmware.txt -v -z [VCC] -m SBW2 (-i COM3) (-e ERASE_ALL) 
+Tue Aug 05 14:22:56 2014:	* Warning: Some default options were used due to incomplete argument list.
+Tue Aug 05 14:22:56 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:22:56 2014:	* Driver      : loaded
+Tue Aug 05 14:22:56 2014:	* Dll Version : 20409001
+Tue Aug 05 14:22:56 2014:	* FwVersion   : 30394216
+Tue Aug 05 14:22:56 2014:	* Interface   : TIUSB
+Tue Aug 05 14:22:56 2014:	* HwVersion   : E 2.0
+Tue Aug 05 14:22:56 2014:	* JTAG Mode   : SBW2
+Tue Aug 05 14:22:56 2014:	* Device      : CC430F6137
+Tue Aug 05 14:22:56 2014:	* EEM         : Level 5, ClockCntrl 2
+Tue Aug 05 14:22:56 2014:	* Prog.File   : /ti/MSP430Flasher_1.3.1/Firmware.txt (ERASE_ALL, verified = TRUE)
+Tue Aug 05 14:22:56 2014:	* BSL Unlock  : FALSE
+Tue Aug 05 14:22:56 2014:	* InfoA Access: FALSE
+Tue Aug 05 14:22:56 2014:	* VCC ON      : 3000 mV
+Tue Aug 05 14:22:56 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:22:56 2014:	* Starting target code execution...done
+Tue Aug 05 14:22:56 2014:	* Disconnecting from device...done
+Tue Aug 05 14:22:56 2014:	* 
+Tue Aug 05 14:22:56 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:22:56 2014:	* Driver      : closed (No error)
+Tue Aug 05 14:22:56 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:22:56 2014:	*/
+Tue Aug 05 14:30:13 2014:	* -----/|-------------------------------------------------------------------- *
+Tue Aug 05 14:30:13 2014:	*     / |__                                                                   *
+Tue Aug 05 14:30:13 2014:	*    /_   /   MSP430 Flasher v1.3.1                                           *
+Tue Aug 05 14:30:13 2014:	*      | /                                                                    *
+Tue Aug 05 14:30:13 2014:	* -----|/-------------------------------------------------------------------- *
+Tue Aug 05 14:30:13 2014:	* Evaluating triggers...
+Tue Aug 05 14:30:13 2014:	- A device name was not entered. For the
+Tue Aug 05 14:30:13 2014:	- correct run syntax please use trigger -h.
+Tue Aug 05 14:30:13 2014:	- 
+Tue Aug 05 14:30:13 2014:	- Please enter the name of the device you
+Tue Aug 05 14:30:13 2014:	- are trying to access or enter n to abort:
+Tue Aug 05 14:30:13 2014:	
+Tue Aug 05 14:30:13 2014:	* Checking for available FET debuggers: 
+Tue Aug 05 14:30:13 2014:	* Found USB FET @ HID0004:COM3.Tue Aug 05 14:30:13 2014:	 <- Selected
+Tue Aug 05 14:30:13 2014:	* Initializing interface @ HID0004:COM3...done
+Tue Aug 05 14:30:14 2014:	* Checking firmware compatibility: 
+Tue Aug 05 14:30:14 2014:	* FET firmware is up to date.
+Tue Aug 05 14:30:14 2014:	* Reading FW version...done
+Tue Aug 05 14:30:14 2014:	* Reading HW version...done
+Tue Aug 05 14:30:14 2014:	* Setting VCC to 3000 mV...done
+Tue Aug 05 14:30:14 2014:	* Accessing device...done
+Tue Aug 05 14:30:14 2014:	* Reading device information...done
+Tue Aug 05 14:30:14 2014:	* 
+Tue Aug 05 14:30:14 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:30:14 2014:	* Arguments   : 
+Tue Aug 05 14:30:14 2014:	* Warning: Some default options were used due to incomplete argument list.
+Tue Aug 05 14:30:14 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:30:14 2014:	* Driver      : loaded
+Tue Aug 05 14:30:14 2014:	* Dll Version : 20409001
+Tue Aug 05 14:30:14 2014:	* FwVersion   : 30394216
+Tue Aug 05 14:30:14 2014:	* Interface   : TIUSB
+Tue Aug 05 14:30:14 2014:	* HwVersion   : E 2.0
+Tue Aug 05 14:30:14 2014:	* JTAG Mode   : AUTO
+Tue Aug 05 14:30:14 2014:	* Device      : CC430F6137
+Tue Aug 05 14:30:14 2014:	* EEM         : Level 5, ClockCntrl 2
+Tue Aug 05 14:30:14 2014:	* VCC OFF
+Tue Aug 05 14:30:14 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:30:14 2014:	* Powering down...done
+Tue Aug 05 14:30:15 2014:	* Disconnecting from device...done
+Tue Aug 05 14:30:15 2014:	* 
+Tue Aug 05 14:30:15 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:30:15 2014:	* Driver      : closed (No error)
+Tue Aug 05 14:30:15 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:30:15 2014:	*/
+Tue Aug 05 14:31:03 2014:	* -----/|-------------------------------------------------------------------- *
+Tue Aug 05 14:31:03 2014:	*     / |__                                                                   *
+Tue Aug 05 14:31:03 2014:	*    /_   /   MSP430 Flasher v1.3.1                                           *
+Tue Aug 05 14:31:03 2014:	*      | /                                                                    *
+Tue Aug 05 14:31:03 2014:	* -----|/-------------------------------------------------------------------- *
+Tue Aug 05 14:31:03 2014:	* Evaluating triggers...
+Tue Aug 05 14:31:03 2014:	- A device name was not entered. For the
+Tue Aug 05 14:31:03 2014:	- correct run syntax please use trigger -h.
+Tue Aug 05 14:31:03 2014:	- 
+Tue Aug 05 14:31:03 2014:	- Please enter the name of the device you
+Tue Aug 05 14:31:03 2014:	- are trying to access or enter n to abort:
+Tue Aug 05 14:31:03 2014:	
+Tue Aug 05 14:31:03 2014:	* Checking for available FET debuggers: 
+Tue Aug 05 14:31:03 2014:	* Found USB FET @ HID0004:COM3.Tue Aug 05 14:31:03 2014:	 <- Selected
+Tue Aug 05 14:31:03 2014:	* Initializing interface @ HID0004:COM3...done
+Tue Aug 05 14:31:03 2014:	* Checking firmware compatibility: 
+Tue Aug 05 14:31:03 2014:	* FET firmware is up to date.
+Tue Aug 05 14:31:03 2014:	* Reading FW version...done
+Tue Aug 05 14:31:03 2014:	* Reading HW version...done
+Tue Aug 05 14:31:03 2014:	* Setting VCC to 3000 mV...done
+Tue Aug 05 14:31:03 2014:	* Accessing device...done
+Tue Aug 05 14:31:03 2014:	* Reading device information...done
+Tue Aug 05 14:31:04 2014:	* 
+Tue Aug 05 14:31:04 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:31:04 2014:	* Arguments   : 
+Tue Aug 05 14:31:04 2014:	* Warning: Some default options were used due to incomplete argument list.
+Tue Aug 05 14:31:04 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:31:04 2014:	* Driver      : loaded
+Tue Aug 05 14:31:04 2014:	* Dll Version : 20409001
+Tue Aug 05 14:31:04 2014:	* FwVersion   : 30394216
+Tue Aug 05 14:31:04 2014:	* Interface   : TIUSB
+Tue Aug 05 14:31:04 2014:	* HwVersion   : E 2.0
+Tue Aug 05 14:31:04 2014:	* JTAG Mode   : AUTO
+Tue Aug 05 14:31:04 2014:	* Device      : CC430F6137
+Tue Aug 05 14:31:04 2014:	* EEM         : Level 5, ClockCntrl 2
+Tue Aug 05 14:31:04 2014:	* VCC OFF
+Tue Aug 05 14:31:04 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:31:04 2014:	* Powering down...done
+Tue Aug 05 14:31:04 2014:	* Disconnecting from device...done
+Tue Aug 05 14:31:04 2014:	* 
+Tue Aug 05 14:31:04 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:31:04 2014:	* Driver      : closed (No error)
+Tue Aug 05 14:31:04 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:31:04 2014:	*/
+Tue Aug 05 14:31:23 2014:	* -----/|-------------------------------------------------------------------- *
+Tue Aug 05 14:31:23 2014:	*     / |__                                                                   *
+Tue Aug 05 14:31:23 2014:	*    /_   /   MSP430 Flasher v1.3.1                                           *
+Tue Aug 05 14:31:23 2014:	*      | /                                                                    *
+Tue Aug 05 14:31:23 2014:	* -----|/-------------------------------------------------------------------- *
+Tue Aug 05 14:31:23 2014:	* Evaluating triggers...
+Tue Aug 05 14:31:23 2014:	- A device name was not entered. For the
+Tue Aug 05 14:31:23 2014:	- correct run syntax please use trigger -h.
+Tue Aug 05 14:31:23 2014:	- 
+Tue Aug 05 14:31:23 2014:	- Please enter the name of the device you
+Tue Aug 05 14:31:23 2014:	- are trying to access or enter n to abort:
+Tue Aug 05 14:31:23 2014:	
+Tue Aug 05 14:31:23 2014:	* Checking for available FET debuggers: 
+Tue Aug 05 14:31:23 2014:	* Found USB FET @ HID0004:COM3.Tue Aug 05 14:31:23 2014:	 <- Selected
+Tue Aug 05 14:31:23 2014:	* Initializing interface @ HID0004:COM3...done
+Tue Aug 05 14:31:23 2014:	* Checking firmware compatibility: 
+Tue Aug 05 14:31:23 2014:	* FET firmware is up to date.
+Tue Aug 05 14:31:23 2014:	* Reading FW version...done
+Tue Aug 05 14:31:23 2014:	* Reading HW version...done
+Tue Aug 05 14:31:23 2014:	* Setting VCC to 3000 mV...done
+Tue Aug 05 14:31:23 2014:	* Accessing device...done
+Tue Aug 05 14:31:24 2014:	* Reading device information...done
+Tue Aug 05 14:31:24 2014:	* 
+Tue Aug 05 14:31:24 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:31:24 2014:	* Arguments   : 
+Tue Aug 05 14:31:24 2014:	* Warning: Some default options were used due to incomplete argument list.
+Tue Aug 05 14:31:24 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:31:24 2014:	* Driver      : loaded
+Tue Aug 05 14:31:24 2014:	* Dll Version : 20409001
+Tue Aug 05 14:31:24 2014:	* FwVersion   : 30394216
+Tue Aug 05 14:31:24 2014:	* Interface   : TIUSB
+Tue Aug 05 14:31:24 2014:	* HwVersion   : E 2.0
+Tue Aug 05 14:31:24 2014:	* JTAG Mode   : AUTO
+Tue Aug 05 14:31:24 2014:	* Device      : CC430F6137
+Tue Aug 05 14:31:24 2014:	* EEM         : Level 5, ClockCntrl 2
+Tue Aug 05 14:31:24 2014:	* VCC OFF
+Tue Aug 05 14:31:24 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:31:24 2014:	* Powering down...done
+Tue Aug 05 14:31:24 2014:	* Disconnecting from device...done
+Tue Aug 05 14:31:24 2014:	* 
+Tue Aug 05 14:31:24 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:31:24 2014:	* Driver      : closed (No error)
+Tue Aug 05 14:31:24 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:31:24 2014:	*/
+Tue Aug 05 14:31:54 2014:	* -----/|-------------------------------------------------------------------- *
+Tue Aug 05 14:31:54 2014:	*     / |__                                                                   *
+Tue Aug 05 14:31:54 2014:	*    /_   /   MSP430 Flasher v1.3.1                                           *
+Tue Aug 05 14:31:54 2014:	*      | /                                                                    *
+Tue Aug 05 14:31:54 2014:	* -----|/-------------------------------------------------------------------- *
+Tue Aug 05 14:31:54 2014:	* Evaluating triggers...
+Tue Aug 05 14:31:54 2014:	- A device name was not entered. For the
+Tue Aug 05 14:31:54 2014:	- correct run syntax please use trigger -h.
+Tue Aug 05 14:31:54 2014:	- 
+Tue Aug 05 14:31:54 2014:	- Please enter the name of the device you
+Tue Aug 05 14:31:54 2014:	- are trying to access or enter n to abort:
+Tue Aug 05 14:31:54 2014:	
+Tue Aug 05 14:31:54 2014:	* Checking for available FET debuggers: 
+Tue Aug 05 14:31:54 2014:	* Found USB FET @ HID0004:COM3.Tue Aug 05 14:31:54 2014:	 <- Selected
+Tue Aug 05 14:31:54 2014:	* Initializing interface @ HID0004:COM3...done
+Tue Aug 05 14:31:54 2014:	* Checking firmware compatibility: 
+Tue Aug 05 14:31:54 2014:	* FET firmware is up to date.
+Tue Aug 05 14:31:54 2014:	* Reading FW version...done
+Tue Aug 05 14:31:54 2014:	* Reading HW version...done
+Tue Aug 05 14:31:54 2014:	* Setting VCC to 3000 mV...done
+Tue Aug 05 14:31:54 2014:	* Accessing device...done
+Tue Aug 05 14:31:54 2014:	* Reading device information...done
+Tue Aug 05 14:31:55 2014:	* 
+Tue Aug 05 14:31:55 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:31:55 2014:	* Arguments   : 
+Tue Aug 05 14:31:55 2014:	* Warning: Some default options were used due to incomplete argument list.
+Tue Aug 05 14:31:55 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:31:55 2014:	* Driver      : loaded
+Tue Aug 05 14:31:55 2014:	* Dll Version : 20409001
+Tue Aug 05 14:31:55 2014:	* FwVersion   : 30394216
+Tue Aug 05 14:31:55 2014:	* Interface   : TIUSB
+Tue Aug 05 14:31:55 2014:	* HwVersion   : E 2.0
+Tue Aug 05 14:31:55 2014:	* JTAG Mode   : AUTO
+Tue Aug 05 14:31:55 2014:	* Device      : CC430F6137
+Tue Aug 05 14:31:55 2014:	* EEM         : Level 5, ClockCntrl 2
+Tue Aug 05 14:31:55 2014:	* VCC OFF
+Tue Aug 05 14:31:55 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:31:55 2014:	* Powering down...done
+Tue Aug 05 14:31:55 2014:	* Disconnecting from device...done
+Tue Aug 05 14:31:55 2014:	* 
+Tue Aug 05 14:31:55 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:31:55 2014:	* Driver      : closed (No error)
+Tue Aug 05 14:31:55 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:31:55 2014:	*/
+Tue Aug 05 14:32:15 2014:	* -----/|-------------------------------------------------------------------- *
+Tue Aug 05 14:32:15 2014:	*     / |__                                                                   *
+Tue Aug 05 14:32:15 2014:	*    /_   /   MSP430 Flasher v1.3.1                                           *
+Tue Aug 05 14:32:15 2014:	*      | /                                                                    *
+Tue Aug 05 14:32:15 2014:	* -----|/-------------------------------------------------------------------- *
+Tue Aug 05 14:32:15 2014:	* Evaluating triggers...
+Tue Aug 05 14:32:15 2014:	- A device name was not entered. For the
+Tue Aug 05 14:32:15 2014:	- correct run syntax please use trigger -h.
+Tue Aug 05 14:32:15 2014:	- 
+Tue Aug 05 14:32:15 2014:	- Please enter the name of the device you
+Tue Aug 05 14:32:15 2014:	- are trying to access or enter n to abort:
+Tue Aug 05 14:32:15 2014:	
+Tue Aug 05 14:32:15 2014:	* Checking for available FET debuggers: 
+Tue Aug 05 14:32:16 2014:	* Found USB FET @ HID0004:COM3.Tue Aug 05 14:32:16 2014:	 <- Selected
+Tue Aug 05 14:32:16 2014:	* Initializing interface @ HID0004:COM3...done
+Tue Aug 05 14:32:16 2014:	* Checking firmware compatibility: 
+Tue Aug 05 14:32:16 2014:	* FET firmware is up to date.
+Tue Aug 05 14:32:16 2014:	* Reading FW version...done
+Tue Aug 05 14:32:16 2014:	* Reading HW version...done
+Tue Aug 05 14:32:16 2014:	* Setting VCC to 3000 mV...done
+Tue Aug 05 14:32:16 2014:	* Accessing device...done
+Tue Aug 05 14:32:16 2014:	* Reading device information...done
+Tue Aug 05 14:32:16 2014:	* 
+Tue Aug 05 14:32:16 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:32:16 2014:	* Arguments   : 
+Tue Aug 05 14:32:16 2014:	* Warning: Some default options were used due to incomplete argument list.
+Tue Aug 05 14:32:16 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:32:16 2014:	* Driver      : loaded
+Tue Aug 05 14:32:16 2014:	* Dll Version : 20409001
+Tue Aug 05 14:32:16 2014:	* FwVersion   : 30394216
+Tue Aug 05 14:32:16 2014:	* Interface   : TIUSB
+Tue Aug 05 14:32:16 2014:	* HwVersion   : E 2.0
+Tue Aug 05 14:32:16 2014:	* JTAG Mode   : AUTO
+Tue Aug 05 14:32:16 2014:	* Device      : CC430F6137
+Tue Aug 05 14:32:16 2014:	* EEM         : Level 5, ClockCntrl 2
+Tue Aug 05 14:32:16 2014:	* VCC OFF
+Tue Aug 05 14:32:16 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:32:16 2014:	* Powering down...done
+Tue Aug 05 14:32:17 2014:	* Disconnecting from device...done
+Tue Aug 05 14:32:17 2014:	* 
+Tue Aug 05 14:32:17 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:32:17 2014:	* Driver      : closed (No error)
+Tue Aug 05 14:32:17 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:32:17 2014:	*/
+Tue Aug 05 14:32:29 2014:	* -----/|-------------------------------------------------------------------- *
+Tue Aug 05 14:32:29 2014:	*     / |__                                                                   *
+Tue Aug 05 14:32:29 2014:	*    /_   /   MSP430 Flasher v1.3.1                                           *
+Tue Aug 05 14:32:29 2014:	*      | /                                                                    *
+Tue Aug 05 14:32:29 2014:	* -----|/-------------------------------------------------------------------- *
+Tue Aug 05 14:32:29 2014:	* Evaluating triggers...
+Tue Aug 05 14:32:29 2014:	- A device name was not entered. For the
+Tue Aug 05 14:32:29 2014:	- correct run syntax please use trigger -h.
+Tue Aug 05 14:32:29 2014:	- 
+Tue Aug 05 14:32:29 2014:	- Please enter the name of the device you
+Tue Aug 05 14:32:29 2014:	- are trying to access or enter n to abort:
+Tue Aug 05 14:32:29 2014:	
+Tue Aug 05 14:32:29 2014:	* Checking for available FET debuggers: 
+Tue Aug 05 14:32:30 2014:	* Found USB FET @ HID0004:COM3.Tue Aug 05 14:32:30 2014:	 <- Selected
+Tue Aug 05 14:32:30 2014:	* Initializing interface @ HID0004:COM3...done
+Tue Aug 05 14:32:30 2014:	* Checking firmware compatibility: 
+Tue Aug 05 14:32:30 2014:	* FET firmware is up to date.
+Tue Aug 05 14:32:30 2014:	* Reading FW version...done
+Tue Aug 05 14:32:30 2014:	* Reading HW version...done
+Tue Aug 05 14:32:30 2014:	* Setting VCC to 3000 mV...done
+Tue Aug 05 14:32:30 2014:	* Accessing device...done
+Tue Aug 05 14:32:30 2014:	* Reading device information...done
+Tue Aug 05 14:32:30 2014:	* 
+Tue Aug 05 14:32:30 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:32:30 2014:	* Arguments   : 
+Tue Aug 05 14:32:30 2014:	* Warning: Some default options were used due to incomplete argument list.
+Tue Aug 05 14:32:30 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:32:30 2014:	* Driver      : loaded
+Tue Aug 05 14:32:30 2014:	* Dll Version : 20409001
+Tue Aug 05 14:32:30 2014:	* FwVersion   : 30394216
+Tue Aug 05 14:32:30 2014:	* Interface   : TIUSB
+Tue Aug 05 14:32:30 2014:	* HwVersion   : E 2.0
+Tue Aug 05 14:32:30 2014:	* JTAG Mode   : AUTO
+Tue Aug 05 14:32:30 2014:	* Device      : CC430F6137
+Tue Aug 05 14:32:30 2014:	* EEM         : Level 5, ClockCntrl 2
+Tue Aug 05 14:32:30 2014:	* VCC OFF
+Tue Aug 05 14:32:30 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:32:30 2014:	* Powering down...done
+Tue Aug 05 14:32:31 2014:	* Disconnecting from device...done
+Tue Aug 05 14:32:31 2014:	* 
+Tue Aug 05 14:32:31 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:32:31 2014:	* Driver      : closed (No error)
+Tue Aug 05 14:32:31 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:32:31 2014:	*/
+Tue Aug 05 14:33:05 2014:	* -----/|-------------------------------------------------------------------- *
+Tue Aug 05 14:33:05 2014:	*     / |__                                                                   *
+Tue Aug 05 14:33:05 2014:	*    /_   /   MSP430 Flasher v1.3.1                                           *
+Tue Aug 05 14:33:05 2014:	*      | /                                                                    *
+Tue Aug 05 14:33:05 2014:	* -----|/-------------------------------------------------------------------- *
+Tue Aug 05 14:33:05 2014:	* Evaluating triggers...
+Tue Aug 05 14:33:05 2014:	- A device name was not entered. For the
+Tue Aug 05 14:33:05 2014:	- correct run syntax please use trigger -h.
+Tue Aug 05 14:33:05 2014:	- 
+Tue Aug 05 14:33:05 2014:	- Please enter the name of the device you
+Tue Aug 05 14:33:05 2014:	- are trying to access or enter n to abort:
+Tue Aug 05 14:33:05 2014:	
+Tue Aug 05 14:33:05 2014:	* Checking for available FET debuggers: 
+Tue Aug 05 14:33:05 2014:	* Found USB FET @ HID0004:COM3.Tue Aug 05 14:33:05 2014:	 <- Selected
+Tue Aug 05 14:33:05 2014:	* Initializing interface @ HID0004:COM3...done
+Tue Aug 05 14:33:05 2014:	* Checking firmware compatibility: 
+Tue Aug 05 14:33:05 2014:	* FET firmware is up to date.
+Tue Aug 05 14:33:05 2014:	* Reading FW version...done
+Tue Aug 05 14:33:05 2014:	* Reading HW version...done
+Tue Aug 05 14:33:05 2014:	* Setting VCC to 3000 mV...done
+Tue Aug 05 14:33:05 2014:	* Accessing device...done
+Tue Aug 05 14:33:06 2014:	* Reading device information...done
+Tue Aug 05 14:33:06 2014:	* 
+Tue Aug 05 14:33:06 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:33:06 2014:	* Arguments   : 
+Tue Aug 05 14:33:06 2014:	* Warning: Some default options were used due to incomplete argument list.
+Tue Aug 05 14:33:06 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:33:06 2014:	* Driver      : loaded
+Tue Aug 05 14:33:06 2014:	* Dll Version : 20409001
+Tue Aug 05 14:33:06 2014:	* FwVersion   : 30394216
+Tue Aug 05 14:33:06 2014:	* Interface   : TIUSB
+Tue Aug 05 14:33:06 2014:	* HwVersion   : E 2.0
+Tue Aug 05 14:33:06 2014:	* JTAG Mode   : AUTO
+Tue Aug 05 14:33:06 2014:	* Device      : CC430F6137
+Tue Aug 05 14:33:06 2014:	* EEM         : Level 5, ClockCntrl 2
+Tue Aug 05 14:33:06 2014:	* VCC OFF
+Tue Aug 05 14:33:06 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:33:06 2014:	* Powering down...done
+Tue Aug 05 14:33:06 2014:	* Disconnecting from device...done
+Tue Aug 05 14:33:06 2014:	* 
+Tue Aug 05 14:33:06 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:33:06 2014:	* Driver      : closed (No error)
+Tue Aug 05 14:33:06 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:33:06 2014:	*/
+Tue Aug 05 14:34:33 2014:	* -----/|-------------------------------------------------------------------- *
+Tue Aug 05 14:34:33 2014:	*     / |__                                                                   *
+Tue Aug 05 14:34:33 2014:	*    /_   /   MSP430 Flasher v1.3.1                                           *
+Tue Aug 05 14:34:33 2014:	*      | /                                                                    *
+Tue Aug 05 14:34:33 2014:	* -----|/-------------------------------------------------------------------- *
+Tue Aug 05 14:34:33 2014:	* Evaluating triggers...
+Tue Aug 05 14:34:33 2014:	- A device name was not entered. For the
+Tue Aug 05 14:34:33 2014:	- correct run syntax please use trigger -h.
+Tue Aug 05 14:34:33 2014:	- 
+Tue Aug 05 14:34:33 2014:	- Please enter the name of the device you
+Tue Aug 05 14:34:33 2014:	- are trying to access or enter n to abort:
+Tue Aug 05 14:34:33 2014:	
+Tue Aug 05 14:34:33 2014:	* Checking for available FET debuggers: 
+Tue Aug 05 14:34:33 2014:	* Found USB FET @ HID0004:COM3.Tue Aug 05 14:34:33 2014:	 <- Selected
+Tue Aug 05 14:34:33 2014:	* Initializing interface @ HID0004:COM3...done
+Tue Aug 05 14:34:33 2014:	* Checking firmware compatibility: 
+Tue Aug 05 14:34:33 2014:	* FET firmware is up to date.
+Tue Aug 05 14:34:33 2014:	* Reading FW version...done
+Tue Aug 05 14:34:33 2014:	* Reading HW version...done
+Tue Aug 05 14:34:33 2014:	* Setting VCC to 3000 mV...done
+Tue Aug 05 14:34:33 2014:	* Accessing device...done
+Tue Aug 05 14:34:34 2014:	* Reading device information...done
+Tue Aug 05 14:34:34 2014:	* 
+Tue Aug 05 14:34:34 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:34:34 2014:	* Arguments   : 
+Tue Aug 05 14:34:34 2014:	* Warning: Some default options were used due to incomplete argument list.
+Tue Aug 05 14:34:34 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:34:34 2014:	* Driver      : loaded
+Tue Aug 05 14:34:34 2014:	* Dll Version : 20409001
+Tue Aug 05 14:34:34 2014:	* FwVersion   : 30394216
+Tue Aug 05 14:34:34 2014:	* Interface   : TIUSB
+Tue Aug 05 14:34:34 2014:	* HwVersion   : E 2.0
+Tue Aug 05 14:34:34 2014:	* JTAG Mode   : AUTO
+Tue Aug 05 14:34:34 2014:	* Device      : CC430F6137
+Tue Aug 05 14:34:34 2014:	* EEM         : Level 5, ClockCntrl 2
+Tue Aug 05 14:34:34 2014:	* VCC OFF
+Tue Aug 05 14:34:34 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:34:34 2014:	* Powering down...done
+Tue Aug 05 14:34:34 2014:	* Disconnecting from device...done
+Tue Aug 05 14:34:34 2014:	* 
+Tue Aug 05 14:34:34 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:34:34 2014:	* Driver      : closed (No error)
+Tue Aug 05 14:34:34 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:34:34 2014:	*/
+Tue Aug 05 14:36:03 2014:	* -----/|-------------------------------------------------------------------- *
+Tue Aug 05 14:36:03 2014:	*     / |__                                                                   *
+Tue Aug 05 14:36:03 2014:	*    /_   /   MSP430 Flasher v1.3.1                                           *
+Tue Aug 05 14:36:03 2014:	*      | /                                                                    *
+Tue Aug 05 14:36:03 2014:	* -----|/-------------------------------------------------------------------- *
+Tue Aug 05 14:36:03 2014:	* Evaluating triggers...done
+Tue Aug 05 14:36:03 2014:	* Checking for available FET debuggers: 
+Tue Aug 05 14:36:03 2014:	* Found USB FET @ HID0004:COM3.Tue Aug 05 14:36:03 2014:	 <- Selected
+Tue Aug 05 14:36:03 2014:	* Initializing interface @ HID0004:COM3...done
+Tue Aug 05 14:36:03 2014:	* Checking firmware compatibility: 
+Tue Aug 05 14:36:03 2014:	* FET firmware is up to date.
+Tue Aug 05 14:36:03 2014:	* Reading FW version...done
+Tue Aug 05 14:36:03 2014:	* Reading HW version...
+Tue Aug 05 14:36:03 2014:	* Debugger does not support target voltages other than 3000 mV!
+Tue Aug 05 14:36:03 2014:	* Setting VCC to 3000 mV...done
+Tue Aug 05 14:36:03 2014:	* Configuring...done
+Tue Aug 05 14:36:03 2014:	* Accessing device...done
+Tue Aug 05 14:36:04 2014:	* Reading device information...done
+Tue Aug 05 14:36:04 2014:	* Loading file into device...done
+Tue Aug 05 14:36:19 2014:	* Verifying transfer...done
+Tue Aug 05 14:36:21 2014:	* 
+Tue Aug 05 14:36:21 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:36:21 2014:	* Arguments   : -n CC430F6137 -w /ti/MSP430Flasher_1.3.1/Firmware.txt -v -z [VCC] -m SBW2 (-i COM3) (-e ERASE_ALL) 
+Tue Aug 05 14:36:21 2014:	* Warning: Some default options were used due to incomplete argument list.
+Tue Aug 05 14:36:21 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:36:21 2014:	* Driver      : loaded
+Tue Aug 05 14:36:21 2014:	* Dll Version : 20409001
+Tue Aug 05 14:36:21 2014:	* FwVersion   : 30394216
+Tue Aug 05 14:36:21 2014:	* Interface   : TIUSB
+Tue Aug 05 14:36:21 2014:	* HwVersion   : E 2.0
+Tue Aug 05 14:36:21 2014:	* JTAG Mode   : SBW2
+Tue Aug 05 14:36:21 2014:	* Device      : CC430F6137
+Tue Aug 05 14:36:21 2014:	* EEM         : Level 5, ClockCntrl 2
+Tue Aug 05 14:36:21 2014:	* Prog.File   : /ti/MSP430Flasher_1.3.1/Firmware.txt (ERASE_ALL, verified = TRUE)
+Tue Aug 05 14:36:21 2014:	* BSL Unlock  : FALSE
+Tue Aug 05 14:36:21 2014:	* InfoA Access: FALSE
+Tue Aug 05 14:36:21 2014:	* VCC ON      : 3000 mV
+Tue Aug 05 14:36:21 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:36:21 2014:	* Starting target code execution...done
+Tue Aug 05 14:36:22 2014:	* Disconnecting from device...done
+Tue Aug 05 14:36:22 2014:	* 
+Tue Aug 05 14:36:22 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:36:22 2014:	* Driver      : closed (No error)
+Tue Aug 05 14:36:22 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:36:22 2014:	*/
+Tue Aug 05 14:37:43 2014:	* -----/|-------------------------------------------------------------------- *
+Tue Aug 05 14:37:43 2014:	*     / |__                                                                   *
+Tue Aug 05 14:37:43 2014:	*    /_   /   MSP430 Flasher v1.3.1                                           *
+Tue Aug 05 14:37:43 2014:	*      | /                                                                    *
+Tue Aug 05 14:37:43 2014:	* -----|/-------------------------------------------------------------------- *
+Tue Aug 05 14:37:43 2014:	* Evaluating triggers...done
+Tue Aug 05 14:37:43 2014:	* Checking for available FET debuggers: 
+Tue Aug 05 14:37:43 2014:	* Found USB FET @ HID0004:COM3.Tue Aug 05 14:37:43 2014:	 <- Selected
+Tue Aug 05 14:37:43 2014:	* Initializing interface @ HID0004:COM3...done
+Tue Aug 05 14:37:44 2014:	* Checking firmware compatibility: 
+Tue Aug 05 14:37:44 2014:	* FET firmware is up to date.
+Tue Aug 05 14:37:44 2014:	* Reading FW version...done
+Tue Aug 05 14:37:44 2014:	* Reading HW version...
+Tue Aug 05 14:37:44 2014:	* Debugger does not support target voltages other than 3000 mV!
+Tue Aug 05 14:37:44 2014:	* Setting VCC to 3000 mV...done
+Tue Aug 05 14:37:44 2014:	* Configuring...done
+Tue Aug 05 14:37:44 2014:	* Accessing device...done
+Tue Aug 05 14:37:44 2014:	* Reading device information...done
+Tue Aug 05 14:37:44 2014:	* Loading file into device...done
+Tue Aug 05 14:37:59 2014:	* Verifying transfer...done
+Tue Aug 05 14:38:01 2014:	* 
+Tue Aug 05 14:38:01 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:38:01 2014:	* Arguments   : -n CC430F6137 -w /ti/MSP430Flasher_1.3.1/Firmware.txt -v -z [VCC] -m SBW2 (-i COM3) (-e ERASE_ALL) 
+Tue Aug 05 14:38:01 2014:	* Warning: Some default options were used due to incomplete argument list.
+Tue Aug 05 14:38:01 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:38:01 2014:	* Driver      : loaded
+Tue Aug 05 14:38:01 2014:	* Dll Version : 20409001
+Tue Aug 05 14:38:01 2014:	* FwVersion   : 30394216
+Tue Aug 05 14:38:01 2014:	* Interface   : TIUSB
+Tue Aug 05 14:38:01 2014:	* HwVersion   : E 2.0
+Tue Aug 05 14:38:01 2014:	* JTAG Mode   : SBW2
+Tue Aug 05 14:38:01 2014:	* Device      : CC430F6137
+Tue Aug 05 14:38:01 2014:	* EEM         : Level 5, ClockCntrl 2
+Tue Aug 05 14:38:01 2014:	* Prog.File   : /ti/MSP430Flasher_1.3.1/Firmware.txt (ERASE_ALL, verified = TRUE)
+Tue Aug 05 14:38:01 2014:	* BSL Unlock  : FALSE
+Tue Aug 05 14:38:01 2014:	* InfoA Access: FALSE
+Tue Aug 05 14:38:01 2014:	* VCC ON      : 3000 mV
+Tue Aug 05 14:38:01 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:38:01 2014:	* Starting target code execution...done
+Tue Aug 05 14:38:02 2014:	* Disconnecting from device...done
+Tue Aug 05 14:38:02 2014:	* 
+Tue Aug 05 14:38:02 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:38:02 2014:	* Driver      : closed (No error)
+Tue Aug 05 14:38:02 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:38:02 2014:	*/
+Tue Aug 05 14:48:58 2014:	* -----/|-------------------------------------------------------------------- *
+Tue Aug 05 14:48:58 2014:	*     / |__                                                                   *
+Tue Aug 05 14:48:58 2014:	*    /_   /   MSP430 Flasher v1.3.1                                           *
+Tue Aug 05 14:48:58 2014:	*      | /                                                                    *
+Tue Aug 05 14:48:58 2014:	* -----|/-------------------------------------------------------------------- *
+Tue Aug 05 14:48:58 2014:	* Evaluating triggers...done
+Tue Aug 05 14:48:58 2014:	* Checking for available FET debuggers: 
+Tue Aug 05 14:48:58 2014:	* Found USB FET @ HID0004:COM3.Tue Aug 05 14:48:58 2014:	 <- Selected
+Tue Aug 05 14:48:58 2014:	* Initializing interface @ HID0004:COM3...done
+Tue Aug 05 14:48:58 2014:	* Checking firmware compatibility: 
+Tue Aug 05 14:48:58 2014:	* FET firmware is up to date.
+Tue Aug 05 14:48:58 2014:	* Reading FW version...done
+Tue Aug 05 14:48:58 2014:	* Reading HW version...
+Tue Aug 05 14:48:58 2014:	* Debugger does not support target voltages other than 3000 mV!
+Tue Aug 05 14:48:58 2014:	* Setting VCC to 3000 mV...done
+Tue Aug 05 14:48:58 2014:	* Configuring...done
+Tue Aug 05 14:48:58 2014:	* Accessing device...done
+Tue Aug 05 14:48:58 2014:	* Reading device information...done
+Tue Aug 05 14:48:58 2014:	* Loading file into device...done
+Tue Aug 05 14:49:14 2014:	* Verifying transfer...done
+Tue Aug 05 14:49:16 2014:	* 
+Tue Aug 05 14:49:16 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:49:16 2014:	* Arguments   : -n CC430F6137 -w /ti/MSP430Flasher_1.3.1/Firmware.txt -v -z [VCC] -m SBW2 (-i COM3) (-e ERASE_ALL) 
+Tue Aug 05 14:49:16 2014:	* Warning: Some default options were used due to incomplete argument list.
+Tue Aug 05 14:49:16 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:49:16 2014:	* Driver      : loaded
+Tue Aug 05 14:49:16 2014:	* Dll Version : 20409001
+Tue Aug 05 14:49:16 2014:	* FwVersion   : 30394216
+Tue Aug 05 14:49:16 2014:	* Interface   : TIUSB
+Tue Aug 05 14:49:16 2014:	* HwVersion   : E 2.0
+Tue Aug 05 14:49:16 2014:	* JTAG Mode   : SBW2
+Tue Aug 05 14:49:16 2014:	* Device      : CC430F6137
+Tue Aug 05 14:49:16 2014:	* EEM         : Level 5, ClockCntrl 2
+Tue Aug 05 14:49:16 2014:	* Prog.File   : /ti/MSP430Flasher_1.3.1/Firmware.txt (ERASE_ALL, verified = TRUE)
+Tue Aug 05 14:49:16 2014:	* BSL Unlock  : FALSE
+Tue Aug 05 14:49:16 2014:	* InfoA Access: FALSE
+Tue Aug 05 14:49:16 2014:	* VCC ON      : 3000 mV
+Tue Aug 05 14:49:16 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:49:16 2014:	* Starting target code execution...done
+Tue Aug 05 14:49:16 2014:	* Disconnecting from device...done
+Tue Aug 05 14:49:16 2014:	* 
+Tue Aug 05 14:49:16 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:49:16 2014:	* Driver      : closed (No error)
+Tue Aug 05 14:49:16 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:49:16 2014:	*/
+Tue Aug 05 14:49:51 2014:	* -----/|-------------------------------------------------------------------- *
+Tue Aug 05 14:49:51 2014:	*     / |__                                                                   *
+Tue Aug 05 14:49:51 2014:	*    /_   /   MSP430 Flasher v1.3.1                                           *
+Tue Aug 05 14:49:51 2014:	*      | /                                                                    *
+Tue Aug 05 14:49:51 2014:	* -----|/-------------------------------------------------------------------- *
+Tue Aug 05 14:49:51 2014:	* Evaluating triggers...done
+Tue Aug 05 14:49:51 2014:	* Checking for available FET debuggers: 
+Tue Aug 05 14:49:51 2014:	* Found USB FET @ HID0004:COM3.Tue Aug 05 14:49:51 2014:	 <- Selected
+Tue Aug 05 14:49:51 2014:	* Initializing interface @ HID0004:COM3...done
+Tue Aug 05 14:49:51 2014:	* Checking firmware compatibility: 
+Tue Aug 05 14:49:51 2014:	* FET firmware is up to date.
+Tue Aug 05 14:49:51 2014:	* Reading FW version...done
+Tue Aug 05 14:49:51 2014:	* Reading HW version...
+Tue Aug 05 14:49:51 2014:	* Debugger does not support target voltages other than 3000 mV!
+Tue Aug 05 14:49:51 2014:	* Setting VCC to 3000 mV...done
+Tue Aug 05 14:49:51 2014:	* Configuring...done
+Tue Aug 05 14:49:51 2014:	* Accessing device...done
+Tue Aug 05 14:49:52 2014:	* Reading device information...done
+Tue Aug 05 14:49:52 2014:	* Loading file into device...done
+Tue Aug 05 14:50:07 2014:	* Verifying transfer...done
+Tue Aug 05 14:50:09 2014:	* 
+Tue Aug 05 14:50:09 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:50:09 2014:	* Arguments   : -n CC430F6137 -w /ti/MSP430Flasher_1.3.1/Firmware.txt -v -z [VCC] -m SBW2 (-i COM3) (-e ERASE_ALL) 
+Tue Aug 05 14:50:09 2014:	* Warning: Some default options were used due to incomplete argument list.
+Tue Aug 05 14:50:09 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:50:09 2014:	* Driver      : loaded
+Tue Aug 05 14:50:09 2014:	* Dll Version : 20409001
+Tue Aug 05 14:50:09 2014:	* FwVersion   : 30394216
+Tue Aug 05 14:50:09 2014:	* Interface   : TIUSB
+Tue Aug 05 14:50:09 2014:	* HwVersion   : E 2.0
+Tue Aug 05 14:50:09 2014:	* JTAG Mode   : SBW2
+Tue Aug 05 14:50:09 2014:	* Device      : CC430F6137
+Tue Aug 05 14:50:09 2014:	* EEM         : Level 5, ClockCntrl 2
+Tue Aug 05 14:50:09 2014:	* Prog.File   : /ti/MSP430Flasher_1.3.1/Firmware.txt (ERASE_ALL, verified = TRUE)
+Tue Aug 05 14:50:09 2014:	* BSL Unlock  : FALSE
+Tue Aug 05 14:50:09 2014:	* InfoA Access: FALSE
+Tue Aug 05 14:50:09 2014:	* VCC ON      : 3000 mV
+Tue Aug 05 14:50:09 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:50:09 2014:	* Starting target code execution...done
+Tue Aug 05 14:50:10 2014:	* Disconnecting from device...done
+Tue Aug 05 14:50:10 2014:	* 
+Tue Aug 05 14:50:10 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:50:10 2014:	* Driver      : closed (No error)
+Tue Aug 05 14:50:10 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 14:50:10 2014:	*/
+Tue Aug 05 15:10:18 2014:	* -----/|-------------------------------------------------------------------- *
+Tue Aug 05 15:10:18 2014:	*     / |__                                                                   *
+Tue Aug 05 15:10:18 2014:	*    /_   /   MSP430 Flasher v1.3.1                                           *
+Tue Aug 05 15:10:18 2014:	*      | /                                                                    *
+Tue Aug 05 15:10:18 2014:	* -----|/-------------------------------------------------------------------- *
+Tue Aug 05 15:10:18 2014:	* Evaluating triggers...done
+Tue Aug 05 15:10:18 2014:	* Checking for available FET debuggers: 
+Tue Aug 05 15:10:19 2014:	* Found USB FET @ HID0004:COM3.Tue Aug 05 15:10:19 2014:	 <- Selected
+Tue Aug 05 15:10:19 2014:	* Initializing interface @ HID0004:COM3...done
+Tue Aug 05 15:10:19 2014:	* Checking firmware compatibility: 
+Tue Aug 05 15:10:19 2014:	* FET firmware is up to date.
+Tue Aug 05 15:10:19 2014:	* Reading FW version...done
+Tue Aug 05 15:10:19 2014:	* Reading HW version...
+Tue Aug 05 15:10:19 2014:	* Debugger does not support target voltages other than 3000 mV!
+Tue Aug 05 15:10:19 2014:	* Setting VCC to 3000 mV...done
+Tue Aug 05 15:10:19 2014:	* Configuring...done
+Tue Aug 05 15:10:19 2014:	* Accessing device...done
+Tue Aug 05 15:10:19 2014:	* Reading device information...done
+Tue Aug 05 15:10:19 2014:	* Loading file into device...done
+Tue Aug 05 15:10:34 2014:	* Verifying transfer...done
+Tue Aug 05 15:10:37 2014:	* 
+Tue Aug 05 15:10:37 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:10:37 2014:	* Arguments   : -n CC430F6137 -w /ti/MSP430Flasher_1.3.1/Firmware.txt -v -z [VCC] -m SBW2 (-i COM3) (-e ERASE_ALL) 
+Tue Aug 05 15:10:37 2014:	* Warning: Some default options were used due to incomplete argument list.
+Tue Aug 05 15:10:37 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:10:37 2014:	* Driver      : loaded
+Tue Aug 05 15:10:37 2014:	* Dll Version : 20409001
+Tue Aug 05 15:10:37 2014:	* FwVersion   : 30394216
+Tue Aug 05 15:10:37 2014:	* Interface   : TIUSB
+Tue Aug 05 15:10:37 2014:	* HwVersion   : E 2.0
+Tue Aug 05 15:10:37 2014:	* JTAG Mode   : SBW2
+Tue Aug 05 15:10:37 2014:	* Device      : CC430F6137
+Tue Aug 05 15:10:37 2014:	* EEM         : Level 5, ClockCntrl 2
+Tue Aug 05 15:10:37 2014:	* Prog.File   : /ti/MSP430Flasher_1.3.1/Firmware.txt (ERASE_ALL, verified = TRUE)
+Tue Aug 05 15:10:37 2014:	* BSL Unlock  : FALSE
+Tue Aug 05 15:10:37 2014:	* InfoA Access: FALSE
+Tue Aug 05 15:10:37 2014:	* VCC ON      : 3000 mV
+Tue Aug 05 15:10:37 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:10:37 2014:	* Starting target code execution...done
+Tue Aug 05 15:10:37 2014:	* Disconnecting from device...done
+Tue Aug 05 15:10:37 2014:	* 
+Tue Aug 05 15:10:37 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:10:37 2014:	* Driver      : closed (No error)
+Tue Aug 05 15:10:37 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:10:37 2014:	*/
+Tue Aug 05 15:14:37 2014:	* -----/|-------------------------------------------------------------------- *
+Tue Aug 05 15:14:37 2014:	*     / |__                                                                   *
+Tue Aug 05 15:14:37 2014:	*    /_   /   MSP430 Flasher v1.3.1                                           *
+Tue Aug 05 15:14:37 2014:	*      | /                                                                    *
+Tue Aug 05 15:14:37 2014:	* -----|/-------------------------------------------------------------------- *
+Tue Aug 05 15:14:37 2014:	* Evaluating triggers...done
+Tue Aug 05 15:14:37 2014:	* Checking for available FET debuggers: 
+Tue Aug 05 15:14:37 2014:	* Found USB FET @ HID0004:COM3.Tue Aug 05 15:14:37 2014:	 <- Selected
+Tue Aug 05 15:14:37 2014:	* Initializing interface @ HID0004:COM3...done
+Tue Aug 05 15:14:37 2014:	* Checking firmware compatibility: 
+Tue Aug 05 15:14:37 2014:	* FET firmware is up to date.
+Tue Aug 05 15:14:37 2014:	* Reading FW version...done
+Tue Aug 05 15:14:37 2014:	* Reading HW version...
+Tue Aug 05 15:14:37 2014:	* Debugger does not support target voltages other than 3000 mV!
+Tue Aug 05 15:14:37 2014:	* Setting VCC to 3000 mV...done
+Tue Aug 05 15:14:37 2014:	* Configuring...done
+Tue Aug 05 15:14:37 2014:	* Accessing device...done
+Tue Aug 05 15:14:38 2014:	* Reading device information...done
+Tue Aug 05 15:14:38 2014:	* Loading file into device...done
+Tue Aug 05 15:14:53 2014:	* Verifying transfer...done
+Tue Aug 05 15:14:55 2014:	* 
+Tue Aug 05 15:14:55 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:14:55 2014:	* Arguments   : -n CC430F6137 -w /ti/MSP430Flasher_1.3.1/Firmware.txt -v -z [VCC] -m SBW2 (-i COM3) (-e ERASE_ALL) 
+Tue Aug 05 15:14:55 2014:	* Warning: Some default options were used due to incomplete argument list.
+Tue Aug 05 15:14:55 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:14:55 2014:	* Driver      : loaded
+Tue Aug 05 15:14:55 2014:	* Dll Version : 20409001
+Tue Aug 05 15:14:55 2014:	* FwVersion   : 30394216
+Tue Aug 05 15:14:55 2014:	* Interface   : TIUSB
+Tue Aug 05 15:14:55 2014:	* HwVersion   : E 2.0
+Tue Aug 05 15:14:55 2014:	* JTAG Mode   : SBW2
+Tue Aug 05 15:14:55 2014:	* Device      : CC430F6137
+Tue Aug 05 15:14:55 2014:	* EEM         : Level 5, ClockCntrl 2
+Tue Aug 05 15:14:55 2014:	* Prog.File   : /ti/MSP430Flasher_1.3.1/Firmware.txt (ERASE_ALL, verified = TRUE)
+Tue Aug 05 15:14:55 2014:	* BSL Unlock  : FALSE
+Tue Aug 05 15:14:55 2014:	* InfoA Access: FALSE
+Tue Aug 05 15:14:55 2014:	* VCC ON      : 3000 mV
+Tue Aug 05 15:14:55 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:14:55 2014:	* Starting target code execution...done
+Tue Aug 05 15:14:56 2014:	* Disconnecting from device...done
+Tue Aug 05 15:14:56 2014:	* 
+Tue Aug 05 15:14:56 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:14:56 2014:	* Driver      : closed (No error)
+Tue Aug 05 15:14:56 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:14:56 2014:	*/
+Tue Aug 05 15:16:06 2014:	* -----/|-------------------------------------------------------------------- *
+Tue Aug 05 15:16:06 2014:	*     / |__                                                                   *
+Tue Aug 05 15:16:06 2014:	*    /_   /   MSP430 Flasher v1.3.1                                           *
+Tue Aug 05 15:16:06 2014:	*      | /                                                                    *
+Tue Aug 05 15:16:06 2014:	* -----|/-------------------------------------------------------------------- *
+Tue Aug 05 15:16:06 2014:	* Evaluating triggers...done
+Tue Aug 05 15:16:06 2014:	* Checking for available FET debuggers: 
+Tue Aug 05 15:16:06 2014:	* Found USB FET @ HID0004:COM3.Tue Aug 05 15:16:06 2014:	 <- Selected
+Tue Aug 05 15:16:06 2014:	* Initializing interface @ HID0004:COM3...done
+Tue Aug 05 15:16:06 2014:	* Checking firmware compatibility: 
+Tue Aug 05 15:16:06 2014:	* FET firmware is up to date.
+Tue Aug 05 15:16:06 2014:	* Reading FW version...done
+Tue Aug 05 15:16:06 2014:	* Reading HW version...
+Tue Aug 05 15:16:06 2014:	* Debugger does not support target voltages other than 3000 mV!
+Tue Aug 05 15:16:06 2014:	* Setting VCC to 3000 mV...done
+Tue Aug 05 15:16:06 2014:	* Configuring...done
+Tue Aug 05 15:16:06 2014:	* Accessing device...done
+Tue Aug 05 15:16:06 2014:	* Reading device information...done
+Tue Aug 05 15:16:06 2014:	* Loading file into device...done
+Tue Aug 05 15:16:22 2014:	* Verifying transfer...done
+Tue Aug 05 15:16:24 2014:	* 
+Tue Aug 05 15:16:24 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:16:24 2014:	* Arguments   : -n CC430F6137 -w /ti/MSP430Flasher_1.3.1/Firmware.txt -v -z [VCC] -m SBW2 (-i COM3) (-e ERASE_ALL) 
+Tue Aug 05 15:16:24 2014:	* Warning: Some default options were used due to incomplete argument list.
+Tue Aug 05 15:16:24 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:16:24 2014:	* Driver      : loaded
+Tue Aug 05 15:16:24 2014:	* Dll Version : 20409001
+Tue Aug 05 15:16:24 2014:	* FwVersion   : 30394216
+Tue Aug 05 15:16:24 2014:	* Interface   : TIUSB
+Tue Aug 05 15:16:24 2014:	* HwVersion   : E 2.0
+Tue Aug 05 15:16:24 2014:	* JTAG Mode   : SBW2
+Tue Aug 05 15:16:24 2014:	* Device      : CC430F6137
+Tue Aug 05 15:16:24 2014:	* EEM         : Level 5, ClockCntrl 2
+Tue Aug 05 15:16:24 2014:	* Prog.File   : /ti/MSP430Flasher_1.3.1/Firmware.txt (ERASE_ALL, verified = TRUE)
+Tue Aug 05 15:16:24 2014:	* BSL Unlock  : FALSE
+Tue Aug 05 15:16:24 2014:	* InfoA Access: FALSE
+Tue Aug 05 15:16:24 2014:	* VCC ON      : 3000 mV
+Tue Aug 05 15:16:24 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:16:24 2014:	* Starting target code execution...done
+Tue Aug 05 15:16:24 2014:	* Disconnecting from device...done
+Tue Aug 05 15:16:25 2014:	* 
+Tue Aug 05 15:16:25 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:16:25 2014:	* Driver      : closed (No error)
+Tue Aug 05 15:16:25 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:16:25 2014:	*/
+Tue Aug 05 15:19:51 2014:	* -----/|-------------------------------------------------------------------- *
+Tue Aug 05 15:19:51 2014:	*     / |__                                                                   *
+Tue Aug 05 15:19:51 2014:	*    /_   /   MSP430 Flasher v1.3.1                                           *
+Tue Aug 05 15:19:51 2014:	*      | /                                                                    *
+Tue Aug 05 15:19:51 2014:	* -----|/-------------------------------------------------------------------- *
+Tue Aug 05 15:19:51 2014:	* Evaluating triggers...done
+Tue Aug 05 15:19:51 2014:	* Checking for available FET debuggers: 
+Tue Aug 05 15:19:51 2014:	* Found USB FET @ HID0004:COM3.Tue Aug 05 15:19:51 2014:	 <- Selected
+Tue Aug 05 15:19:51 2014:	* Initializing interface @ HID0004:COM3...done
+Tue Aug 05 15:19:51 2014:	* Checking firmware compatibility: 
+Tue Aug 05 15:19:51 2014:	* FET firmware is up to date.
+Tue Aug 05 15:19:51 2014:	* Reading FW version...done
+Tue Aug 05 15:19:51 2014:	* Reading HW version...
+Tue Aug 05 15:19:51 2014:	* Debugger does not support target voltages other than 3000 mV!
+Tue Aug 05 15:19:51 2014:	* Setting VCC to 3000 mV...done
+Tue Aug 05 15:19:51 2014:	* Configuring...done
+Tue Aug 05 15:19:51 2014:	* Accessing device...done
+Tue Aug 05 15:19:52 2014:	* Reading device information...done
+Tue Aug 05 15:19:52 2014:	* Loading file into device...done
+Tue Aug 05 15:20:07 2014:	* Verifying transfer...done
+Tue Aug 05 15:20:09 2014:	* 
+Tue Aug 05 15:20:09 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:20:09 2014:	* Arguments   : -n CC430F6137 -w /ti/MSP430Flasher_1.3.1/Firmware.txt -v -z [VCC] -m SBW2 (-i COM3) (-e ERASE_ALL) 
+Tue Aug 05 15:20:09 2014:	* Warning: Some default options were used due to incomplete argument list.
+Tue Aug 05 15:20:09 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:20:09 2014:	* Driver      : loaded
+Tue Aug 05 15:20:09 2014:	* Dll Version : 20409001
+Tue Aug 05 15:20:09 2014:	* FwVersion   : 30394216
+Tue Aug 05 15:20:09 2014:	* Interface   : TIUSB
+Tue Aug 05 15:20:09 2014:	* HwVersion   : E 2.0
+Tue Aug 05 15:20:09 2014:	* JTAG Mode   : SBW2
+Tue Aug 05 15:20:09 2014:	* Device      : CC430F6137
+Tue Aug 05 15:20:09 2014:	* EEM         : Level 5, ClockCntrl 2
+Tue Aug 05 15:20:09 2014:	* Prog.File   : /ti/MSP430Flasher_1.3.1/Firmware.txt (ERASE_ALL, verified = TRUE)
+Tue Aug 05 15:20:09 2014:	* BSL Unlock  : FALSE
+Tue Aug 05 15:20:09 2014:	* InfoA Access: FALSE
+Tue Aug 05 15:20:09 2014:	* VCC ON      : 3000 mV
+Tue Aug 05 15:20:09 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:20:09 2014:	* Starting target code execution...done
+Tue Aug 05 15:20:10 2014:	* Disconnecting from device...done
+Tue Aug 05 15:20:10 2014:	* 
+Tue Aug 05 15:20:10 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:20:10 2014:	* Driver      : closed (No error)
+Tue Aug 05 15:20:10 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:20:10 2014:	*/
+Tue Aug 05 15:21:26 2014:	* -----/|-------------------------------------------------------------------- *
+Tue Aug 05 15:21:26 2014:	*     / |__                                                                   *
+Tue Aug 05 15:21:26 2014:	*    /_   /   MSP430 Flasher v1.3.1                                           *
+Tue Aug 05 15:21:26 2014:	*      | /                                                                    *
+Tue Aug 05 15:21:26 2014:	* -----|/-------------------------------------------------------------------- *
+Tue Aug 05 15:21:26 2014:	* Evaluating triggers...done
+Tue Aug 05 15:21:26 2014:	* Checking for available FET debuggers: 
+Tue Aug 05 15:21:26 2014:	* Found USB FET @ HID0004:COM3.Tue Aug 05 15:21:26 2014:	 <- Selected
+Tue Aug 05 15:21:26 2014:	* Initializing interface @ HID0004:COM3...done
+Tue Aug 05 15:21:26 2014:	* Checking firmware compatibility: 
+Tue Aug 05 15:21:26 2014:	* FET firmware is up to date.
+Tue Aug 05 15:21:26 2014:	* Reading FW version...done
+Tue Aug 05 15:21:26 2014:	* Reading HW version...
+Tue Aug 05 15:21:26 2014:	* Debugger does not support target voltages other than 3000 mV!
+Tue Aug 05 15:21:26 2014:	* Setting VCC to 3000 mV...done
+Tue Aug 05 15:21:26 2014:	* Configuring...done
+Tue Aug 05 15:21:26 2014:	* Accessing device...done
+Tue Aug 05 15:21:27 2014:	* Reading device information...done
+Tue Aug 05 15:21:27 2014:	* Loading file into device...done
+Tue Aug 05 15:21:42 2014:	* Verifying transfer...done
+Tue Aug 05 15:21:44 2014:	* 
+Tue Aug 05 15:21:44 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:21:44 2014:	* Arguments   : -n CC430F6137 -w /ti/MSP430Flasher_1.3.1/Firmware.txt -v -z [VCC] -m SBW2 (-i COM3) (-e ERASE_ALL) 
+Tue Aug 05 15:21:44 2014:	* Warning: Some default options were used due to incomplete argument list.
+Tue Aug 05 15:21:44 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:21:44 2014:	* Driver      : loaded
+Tue Aug 05 15:21:44 2014:	* Dll Version : 20409001
+Tue Aug 05 15:21:44 2014:	* FwVersion   : 30394216
+Tue Aug 05 15:21:44 2014:	* Interface   : TIUSB
+Tue Aug 05 15:21:44 2014:	* HwVersion   : E 2.0
+Tue Aug 05 15:21:44 2014:	* JTAG Mode   : SBW2
+Tue Aug 05 15:21:44 2014:	* Device      : CC430F6137
+Tue Aug 05 15:21:44 2014:	* EEM         : Level 5, ClockCntrl 2
+Tue Aug 05 15:21:44 2014:	* Prog.File   : /ti/MSP430Flasher_1.3.1/Firmware.txt (ERASE_ALL, verified = TRUE)
+Tue Aug 05 15:21:44 2014:	* BSL Unlock  : FALSE
+Tue Aug 05 15:21:44 2014:	* InfoA Access: FALSE
+Tue Aug 05 15:21:44 2014:	* VCC ON      : 3000 mV
+Tue Aug 05 15:21:44 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:21:44 2014:	* Starting target code execution...done
+Tue Aug 05 15:21:45 2014:	* Disconnecting from device...done
+Tue Aug 05 15:21:45 2014:	* 
+Tue Aug 05 15:21:45 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:21:45 2014:	* Driver      : closed (No error)
+Tue Aug 05 15:21:45 2014:	* ----------------------------------------------------------------------------
+Tue Aug 05 15:21:45 2014:	*/
